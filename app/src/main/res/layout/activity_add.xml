@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.innovvscript.bluediary.AddActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg"
+        android:background="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/add_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Title"
+        android:background="@android:color/white"
+        />
+
+    <EditText
+        android:id="@+id/add_desc"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_margin="20dp"
+        android:hint="Description"
+        android:layout_below="@+id/add_title"
+        android:background="@android:color/white"
+        />
+
+</RelativeLayout>
